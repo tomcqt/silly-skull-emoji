@@ -1,6 +1,12 @@
-<h1>💀</h1>
-<title>Free Robux!</title>
+<body>
+  <p class="blink_text">Malware installed!</p>
+  <h1>💀</h1>
+  <title>Free Robux!</title>
+</body>
 <style>
+  body: {
+    background-color: black;
+  }
   h1 {
     position: absolute;
     top: 50%;
@@ -8,4 +14,32 @@
     transform: translate(-50%, -50%);
     font-size: 7em;
   }
+  .blink_text
+  {
+      animation:1s blinker linear infinite;
+      -webkit-animation:1s blinker linear infinite;
+      -moz-animation:1s blinker linear infinite;
+      color: red;
+  }
+  
+  @-moz-keyframes blinker
+  {  
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes blinker
+  {  
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+  }
+  
+  @keyframes blinker
+  {  
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+   }
 </style>
